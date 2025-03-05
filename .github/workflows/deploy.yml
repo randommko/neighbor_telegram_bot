@@ -3,7 +3,7 @@ name: Build and Deploy Java Application
 on:
   push:
     branches:
-      - main # Укажите нужную ветку, например, "main" или "master"
+      - master # Укажите нужную ветку, например, "main" или "master"
 
 jobs:
   build:
