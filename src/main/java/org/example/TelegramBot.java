@@ -219,7 +219,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     private void test() {
         SendMessage message = new SendMessage();
         message.setChatId(270459384L); //указан ID пользователя, НЕ ЧАТА!!!
-        message.setText("проверка отправки сообщения");
+        message.setText("проверка отправки сообщения 2");
         try {
             execute(message).getMessageId();
         } catch (TelegramApiException e) {
